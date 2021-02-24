@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema3</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <label for="date">Ingrese la fecha</label>
+    <input type="date" id="date">
+    <br>
+    <label for="drink">Ingrese su bebida</label>
+    <input type="text" id="drink">
+    <br>
+    <label for="quantity">Ingrese la cantidad de bebidas que ha consumido</label>
+    <input type="number" id="quantity">
+    <button id="send" onclick="processForm()">Enviar</button>
+    <br>
+    <br>
+
+    <div>
+        <table id="myTable">
+            <tr>
+                <th>Fecha</th>
+                <th>Bebida</th>
+                <th>Cantidad</th>
+                <th>Mensaje</th>
+            </tr>
+        </table>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
